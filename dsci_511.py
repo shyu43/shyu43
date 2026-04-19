@@ -31,3 +31,8 @@ print(house)
 ### Set default values
 print(condo.get("bedrooms", "Key not found"))
 print(condo.get("fireplaces", "Key not found"))
+
+### Inline if/else
+penguins = ["Gilbert", "Gertrude", "Gretta", "Gus Gus", "Guin", "Fetti"]
+x = "get more penguins" if len(penguins) < 5 else "No more penguins needed"
+print(x)
